@@ -13,3 +13,17 @@ def kid_activity(kids_lists, activity):
 
 
 kid_activity(all_the_kids, activities)
+
+def chicken_monkey():
+    for i in range(1, 101):
+        if 0 == i%5:
+            print("chicken")
+        elif 0 == i%7:
+            print("monkey")
+        if 0 == i%5 and 0== i%7:
+            print("chicken/monkey")
+        else:
+            print(i)
+        
+
+chicken_monkey()
